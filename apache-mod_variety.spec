@@ -3,7 +3,7 @@
 %define mod_conf 78_%{mod_name}.conf
 %define mod_so %{mod_name}.so
 
-Summary:	DSO module for the apache web server
+Summary:	Apache module to serve random files from a directory
 Name:		apache-%{mod_name}
 Version:	0.2.1
 Release:	%mkrel 9
