@@ -6,7 +6,7 @@
 Summary:	Apache module to serve random files from a directory
 Name:		apache-%{mod_name}
 Version:	0.2.1
-Release:	%mkrel 10
+Release:	%mkrel 11
 Group:		System/Servers
 License:	BSD
 URL:		http://pmade.org/pjones/software/mod_variety/
