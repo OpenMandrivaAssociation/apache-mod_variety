@@ -1,0 +1,13 @@
+--- src/mod_variety.c	2003-03-25 22:20:02.000000000 +0100
++++ src/mod_variety.c.oden	2005-12-14 01:59:35.000000000 +0100
+@@ -40,6 +40,10 @@
+ #include "apr_strings.h"
+ #include "apr_file_info.h"
+ 
++/* apache 2.2 compat */
++#define regex_t ap_regex_t
++#define REG_EXTENDED AP_REG_EXTENDED
++
+ // for getpid()
+ #include <sys/types.h>
+ #include <unistd.h>
