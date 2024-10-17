@@ -9,7 +9,7 @@ Version:	0.2.1
 Release:	16
 Group:		System/Servers
 License:	BSD
-URL:		http://pmade.org/pjones/software/mod_variety/
+URL:		https://pmade.org/pjones/software/mod_variety/
 Source0:	%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Source2:	README.html.variety.bz2
